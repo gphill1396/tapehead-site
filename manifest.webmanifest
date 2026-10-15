@@ -1,0 +1,53 @@
+{
+  "name": "Tapehead",
+  "short_name": "Tapehead",
+  "description": "Multitrack audio and MIDI editor for your phone.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1b1b1b",
+  "theme_color": "#1b1b1b",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Record",
+      "short_name": "Record",
+      "url": "./?go=record",
+      "description": "Open ready to record"
+    },
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "url": "./?go=projects",
+      "description": "Your saved songs"
+    },
+    {
+      "name": "Share or export",
+      "short_name": "Share",
+      "url": "./?go=share",
+      "description": "Make a file of your song"
+    }
+  ]
+}
